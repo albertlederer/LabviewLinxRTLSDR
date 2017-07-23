@@ -1,0 +1,73 @@
+<?xml version="1.0">
+<nidocument>
+<nicomment>
+<nifamily displayname=" Spectral Measurement Toolset" familyname=" Spectral Measurement Toolset">
+</nifamily>
+</nicomment>
+<nierror code="-20521">
+Resolution bandwidth (RBW) should be less than span.
+</nierror>
+<nierror code="-20520">
+Spectral Measurements: value of span should lie between 1pHz and 1THz .
+</nierror>
+<nierror code="-20519">
+Spectral Measurements: Value of dt should be more than 1ps and less than 1Ts.
+</nierror>
+<nierror code="-20518">
+If pulse shaping filter type is not set to None, the filter parameter cannot be less than 0.1 or higher than 0.9.
+</nierror>
+<nierror code="-20517">
+Spectral Measurements: Spectral Measurement Toolkit does not support this hardware.
+</nierror>
+<nierror code="-20516">
+Spectral Measurements: Input parameter out of range.
+</nierror>
+<nierror code="-20515">
+Spectral Measurements: RBW or Spectral Lines value not supported.
+</nierror>
+<nierror code="-20514">
+Spectral Measurements: This hardware cannot be configured using this VI. Refer to the SMT examples for this hardware.
+</nierror>
+<nierror code="-20513">
+Spectral Measurements: The specified band does not match the spectra. The band specification chosen might be outside the band  chosen using spectrum settings.
+</nierror>
+<nierror code="-20512">
+Spectral Measurements: Either RBW, time, or span must be specified.
+</nierror>
+<nierror code="-20511">
+Could not create required mutex.
+</nierror>
+<nierror code="-20510">
+Function not found in DLL (invalid DLL version?)
+</nierror>
+<nierror code="-20509">
+Error Loading DLL (DLL not in path?)
+</nierror>
+<nierror code="-20508">
+Invalid SMT session handle.
+</nierror>
+<nierror code="-20507">
+Spectral Measurements: Incorrect averaging type specified.
+</nierror>
+<nierror code="-20506">
+Spectral Measurements: The input spectrum data is of an incorrect type.
+</nierror>
+<nierror code="-20505">
+Spectral Measurements: Either the number of FFT bins or the resolution bandwidth must be specified.
+</nierror>
+<nierror code="-20504">
+Spectral Measurements: The specified sampling frequency must be greater than 0.
+</nierror>
+<nierror code="-20503">
+Spectral Measurements: The input data overflows the internal buffer.
+</nierror>
+<nierror code="-20502">
+Spectral Measurements: The specified FFT size must be greater than 0.
+</nierror>
+<nierror code="-20501">
+Spectral Measurements: The specified zoom factor must be greater than 0.
+</nierror>
+<nierror code="20501">
+Spectral Measurements: The specified VI is not supported by this version of the SMT.
+</nierror>
+</nidocument>

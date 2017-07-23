@@ -1,0 +1,73 @@
+<?xml version="1.0">
+<nidocument>
+<nicomment>
+<nifamily displayname=" Spectral Measurement Toolset" familyname=" Spectral Measurement Toolset">
+</nifamily>
+</nicomment>
+<nierror code="-20521">
+La valeur de Resolution Bandwidth (RBW) doit être inférieure à celle de Span.
+</nierror>
+<nierror code="-20520">
+Mesures spectrales : la valeur de span doit être comprise entre 1pHz et 1THz .
+</nierror>
+<nierror code="-20519">
+Mesures spectrales : la valeur de dt doit être supérieure à 1ps et inférieure à 1Ts.
+</nierror>
+<nierror code="-20518">
+Si le type de filtre de forme d'impulsion est défini à "None", le paramètre de filtre ne peut pas être inférieur à 0,1 ou supérieur à 0,9.
+</nierror>
+<nierror code="-20517">
+Mesures spectrales : le toolkit Spectral Measurement ne supporte pas ce matériel.
+</nierror>
+<nierror code="-20516">
+Mesures spectrales : paramètre en entrée hors gamme.
+</nierror>
+<nierror code="-20515">
+Mesures spectrales : la valeur de RBW ou de Spectral Lines n'est pas supportée.
+</nierror>
+<nierror code="-20514">
+Mesures spectrales : ce matériel ne peut pas être configuré avec ce VI. Reportez-vous aux exemples SMT pour ce matériel.
+</nierror>
+<nierror code="-20513">
+Mesures spectrales : la bande spécifiée ne correspond pas aux spectres. La spécification de bande choisie risque de se trouver en dehors de la bande choisie avec les paramètres de spectre.
+</nierror>
+<nierror code="-20512">
+Mesures spectrales : vous devez spécifier une valeur pour RBW, time ou span.
+</nierror>
+<nierror code="-20511">
+Impossible de créer un mutex requis.
+</nierror>
+<nierror code="-20510">
+Fonction introuvable dans la DLL (version de DLL non valide ?)
+</nierror>
+<nierror code="-20509">
+Erreur de chargement de la DLL (DLL introuvable à ce chemin ?)
+</nierror>
+<nierror code="-20508">
+Handle de session SMT non valide.
+</nierror>
+<nierror code="-20507">
+Mesures spectrale : le type de moyennage spécifié est incorrect.
+</nierror>
+<nierror code="-20506">
+Mesures spectrales : letype des données de spectre en entrée n'est pas valide.
+</nierror>
+<nierror code="-20505">
+Mesures spectrales : vous devez spécifier une valeur pour le nombre d'intervalles de FFT ou la bande passante de résolution.
+</nierror>
+<nierror code="-20504">
+Mesures spectrales : la fréquence d'échantillonnage spécifiée doit être supérieure à 0.
+</nierror>
+<nierror code="-20503">
+Mesures spectrales : débordement des données en entrée dans le buffer interne.
+</nierror>
+<nierror code="-20502">
+Mesures spectrales : la taille de FFT spécifiée doit être supérieure à 0.
+</nierror>
+<nierror code="-20501">
+Mesures spectrales : le facteur de zoom spécifié doit être supérieur à 0.
+</nierror>
+<nierror code="20501">
+Mesures spectrales : le VI spécifié n'est pas supporté par cette version de SMT.
+</nierror>
+</nidocument>

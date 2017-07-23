@@ -1,0 +1,73 @@
+<?xml version="1.0">
+<nidocument>
+<nicomment>
+<nifamily displayname=" Spectral Measurement Toolset" familyname=" Spectral Measurement Toolset">
+</nifamily>
+</nicomment>
+<nierror code="-20521">
+分解能帯域幅（RBW）はスパンよりも小さい値である必要があります。
+</nierror>
+<nierror code="-20520">
+スペクトル計測: スパンの値は1pHzから1THzの間である必要があります。
+</nierror>
+<nierror code="-20519">
+スペクトル計測: dtの値は1psより大きく、1Ts未満である必要があります。
+</nierror>
+<nierror code="-20518">
+パルス整形フィルタのタイプが「なし」に設定されていない場合、フィルタパラメータは0.1以上、0.9未満である必要があります。
+</nierror>
+<nierror code="-20517">
+スペクトル計測: このハードウェアはスペクトル計測ツールキットでサポートされていません。
+</nierror>
+<nierror code="-20516">
+スペクトル計測: 入力パラメータが範囲外です。
+</nierror>
+<nierror code="-20515">
+スペクトル計測: RBWまたはスペクトル線の値はサポートされていません。
+</nierror>
+<nierror code="-20514">
+スペクトル計測: このVIを使用してこのハードウェアを構成できません。このハードウェアのSMTサンプルを参照してください。
+</nierror>
+<nierror code="-20513">
+スペクトル計測: 指定の帯域はスペクトルと一致しません。選択された帯域指定は、スペクトル設定を使用して選択された帯域外である可能性があります。
+</nierror>
+<nierror code="-20512">
+スペクトル計測: RBW、時間、または範囲のいずれかを指定する必要があります。
+</nierror>
+<nierror code="-20511">
+要求されたミューテックスを作成できませんでした。
+</nierror>
+<nierror code="-20510">
+DLLに関数が含まれていません（DLLのバージョンが無効の可能性があります）
+</nierror>
+<nierror code="-20509">
+DLLをロード中に、エラーが発生しました（指定したパスにDLLが無い可能性があります）
+</nierror>
+<nierror code="-20508">
+SMTセッションハンドルが無効です。
+</nierror>
+<nierror code="-20507">
+スペクトル計測: 正しくない平均化タイプが指定されました。
+</nierror>
+<nierror code="-20506">
+スペクトル計測: 入力スペクトルデータタイプが正しくありません。
+</nierror>
+<nierror code="-20505">
+スペクトル計測: FFTビン数または分解能帯域幅のいずれかを指定する必要があります。
+</nierror>
+<nierror code="-20504">
+スペクトル計測: 指定のサンプル周波数は0より大きい値であることが必要です。
+</nierror>
+<nierror code="-20503">
+スペクトル計測: 入力データによって内部バッファがオーバーフローしています。
+</nierror>
+<nierror code="-20502">
+スペクトル計測: 指定のFFTサイズは0より大きい値であることが必要です。
+</nierror>
+<nierror code="-20501">
+スペクトル計測: 指定のズーム係数は0より大きい値であることが必要です。
+</nierror>
+<nierror code="20501">
+スペクトル計測: 指定のVIはSMTのこのバージョンではサポートされていません。
+</nierror>
+</nidocument>

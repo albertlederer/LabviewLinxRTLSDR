@@ -1,0 +1,73 @@
+<?xml version="1.0">
+<nidocument>
+<nicomment>
+<nifamily displayname=" Spectral Measurement Toolset" familyname=" Spectral Measurement Toolset">
+</nifamily>
+</nicomment>
+<nierror code="-20521">
+"Resolution Bandwidth (RBW)" muss kleiner sein als "Span".
+</nierror>
+<nierror code="-20520">
+Spektrumsermittlung: Wert für Bereich muss zwischen 1 pHz und 1 THz liegen.
+</nierror>
+<nierror code="-20519">
+Spektrumsermittlung: Wert von dt muss größer als 1 ps und kleiner als 1 Ts sein.
+</nierror>
+<nierror code="-20518">
+Wenn der Typ des Impulsformfilters nicht "None" lautet, darf der Filterparameter nicht kleiner als 0,1 oder größer als 0,9 sein.
+</nierror>
+<nierror code="-20517">
+Spektrumsermittlung: Das Spectral Measurement Toolkit unterstützt diese Hardware nicht.
+</nierror>
+<nierror code="-20516">
+Spektrumsermittlung: Eingangsparameter außerhalb des gültigen Bereichs.
+</nierror>
+<nierror code="-20515">
+Spektrumsermittlung: Wert für Auflösungsbandbreite (RBW) oder Spektrallinien wird nicht unterstützt.
+</nierror>
+<nierror code="-20514">
+Spektrumsermittlung: Die Hardware kann nicht mit diesem VI konfiguriert werden. Nehmen Sie die SMT-Beispiele für diese Hardware zu Hilfe.
+</nierror>
+<nierror code="-20513">
+Spektrumsermittlung: Das angegebene Band entspricht nicht den Spektren. Die ausgewählte Bandspezifikation liegt eventuell außerhalb des Bands, das mit den Spektrumseinstellungen gewählt wurde.
+</nierror>
+<nierror code="-20512">
+Spektrumsermittlung: Geben Sie einen Wert für Auflösungsbandbreite (RBW), Zeit oder Spanne an.
+</nierror>
+<nierror code="-20511">
+Erforderlicher Mutex konnte nicht erstellt werden.
+</nierror>
+<nierror code="-20510">
+Funktion konnte nicht in DLL gefunden werden (ungültige DLL-Version?)
+</nierror>
+<nierror code="-20509">
+Fehler beim Laden der DLL (DLL nicht im Pfad?)
+</nierror>
+<nierror code="-20508">
+Ungültiges Handle für SMT-Session.
+</nierror>
+<nierror code="-20507">
+Spektrumsermittlung: Angegebener Typ der Mittelwertbildung ist falsch.
+</nierror>
+<nierror code="-20506">
+Spektrumsermittlung: Die Eingangswerte des Spektrums liegen im falschen Datentyp vor.
+</nierror>
+<nierror code="-20505">
+Spektrumsermittlung: Es muss entweder die Anzahl der FFT-Unterteilungen oder die Auflösungsbandbreite angegeben werden.
+</nierror>
+<nierror code="-20504">
+Spektrumsermittlung: Die angegebene Sample-Frequenz muss größer als 0 sein.
+</nierror>
+<nierror code="-20503">
+Spektrumsermittlung: Die Eingangsdaten verursachen einen Überlauf des internen Puffers.
+</nierror>
+<nierror code="-20502">
+Spektrumsermittlung: Die angegebene FFT-Größe muss größer als 0 sein.
+</nierror>
+<nierror code="-20501">
+Spektrumsermittlung: Der angegebene Zoomfaktor muss größer als 0 sein.
+</nierror>
+<nierror code="20501">
+Spektrumsermittlung: Das angegebene VI wird von dieser Version des Toolkits nicht unterstützt.
+</nierror>
+</nidocument>
